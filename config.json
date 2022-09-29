@@ -14,7 +14,7 @@
       "transformGroup": "scss",
       "buildPath": "scss/",
       "files": [{
-        "destination": "scss/_variables.scss",
+        "destination": "_variables.scss",
         "format": "scss/variables"
       }]
     },
