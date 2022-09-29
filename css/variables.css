@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 29 Sep 2022 16:00:35 GMT
+ * Generated on Thu, 29 Sep 2022 16:01:28 GMT
  */
 
 :root {
@@ -60,7 +60,7 @@
   --line-heights-5: 130%;
   --font-weights-20: 20;
   --font-weights-regular: Regular;
-  --font-size-0: 14;
+  --font-size-0: 14px;
   --font-size-1: 16;
   --font-size-2: 18;
   --font-size-3: 20;
@@ -102,7 +102,7 @@
   --typography-v2-base-body-text-small-font-family: Sharp Grotesk Book;
   --typography-v2-base-body-text-small-font-weight: 20;
   --typography-v2-base-body-text-small-line-height: 150%;
-  --typography-v2-base-body-text-small-font-size: 14;
+  --typography-v2-base-body-text-small-font-size: 14px;
   --typography-v2-base-body-text-small-letter-spacing: 0;
   --typography-v2-base-body-text-small-paragraph-spacing: 0;
   --typography-v2-base-body-text-small-text-case: none;
