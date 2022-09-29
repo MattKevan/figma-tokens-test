@@ -9,6 +9,22 @@
           "format": "css/variables"
         }
       ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "scss/",
+      "files": [{
+        "destination": "scss/_variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "less": {
+      "transformGroup": "less",
+      "buildPath": "less/",
+      "files": [{
+        "destination": "_variables.less",
+        "format": "less/variables"
+      }]
     }
   }
 }
