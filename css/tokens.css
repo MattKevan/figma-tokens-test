@@ -1,9 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Fri, 30 Sep 2022 13:42:53 GMT
+ * Generated on Fri, 30 Sep 2022 13:48:19 GMT
  */
 
 :root {
+  --1: 8px;
+  --2: 16px;
+  --3: 24px;
+  --4: 32px;
+  --5: 40px;
+  --6: 48px;
   --token-set-order-0: global;
   --core-dark-blue: #20293E;
   --core-light-blue: #7396f7;
@@ -177,7 +183,6 @@
   --text-case-none: none;
   --text-decoration-none: none;
   --text-decoration-underline: underline;
-  --md: 8px;
   --spacing-1: 8px;
   --spacing-2: 16px;
   --spacing-3: 24px;
