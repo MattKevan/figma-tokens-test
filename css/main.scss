@@ -1,21 +1,37 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
-@charset "utf-8";
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "variables";
-@import "tokens";
-@import "bootstrap/bootstrap";
+
+
+
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium';
+    src: url('fonts/sharp-grotesk-20-medium-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sharp Grotesk Regular';
+    src: url('fonts/sharp-grotesk-book-20-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
 	-webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-	background: $green;
+	background: var(--core-dark-blue);
 }
-
+.main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
 
 .wrapper {
 	margin-top: 60px;
@@ -40,7 +56,7 @@ hr {
 p {
 	//font-size: 16px;
 	&.lead {
-		font-family: $font-family-sans-serif;
+		font-family: var(--font-families-sharp-grotesk-book);
 	}
 	&.s {
 		font-size: 14px;
@@ -69,8 +85,9 @@ a:hover h3 { text-decoration: underline;}
 a:hover p {text-decoration: none;}
 
 h1, h2, h3, h4 {
-	color: $core-dark-blue;
+	color: var(--core-dark-blue);
 	font-weight: normal;
+	font-family: var(--font-families-cambon);
 }
 .cover-image { 
 	background-position: center;
@@ -108,7 +125,7 @@ h2 {
 		margin-bottom: .75em;}
 
 .postmeta {
-	font-family: $font-family-sans-serif;
+	font-family: var(--font-families-sharp-grotesk-book);
 }
 .card {
 	&.list {
@@ -135,7 +152,7 @@ h2 {
 
 
 nav {
-	font-family: $headings-font-family;
+	font-family: var(--font-families-sharp-grotesk-medium);
 	//box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
 	background-color: #fff!important;
 }
@@ -159,7 +176,7 @@ a.nav-link:hover,
 }
 
 p.tags {
-	font-family: $font-family-monospace;
+	font-family: var(--font-families-sharp-grotesk-book);
 	margin: 10px 0 0 0;
 	display: inline-block;
 	span {
