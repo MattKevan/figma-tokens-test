@@ -15,7 +15,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Sharp Grotesk Regular';
+    font-family: 'Sharp Grotesk Book';
     src: url('fonts/sharp-grotesk-book-20-regular-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -23,6 +23,7 @@
 
 body {
 	-webkit-font-smoothing: antialiased;
+	background-color: var(--core-cork);
 }
 
 ::selection {
@@ -31,6 +32,7 @@ body {
 .main {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
 .wrapper {
@@ -54,19 +56,8 @@ hr {
 
 
 p {
-	//font-size: 16px;
-	&.lead {
-		font-family: var(--font-families-sharp-grotesk-book);
-	}
-	&.s {
-		font-size: 14px;
-		line-height: 1.4em;
-	}
-
-	&.xs {
-		font-size: 12px;
-		line-height: 1.2em;
-	}
+	font-family: var(--font-families-sharp-grotesk-book);
+	font-size: var(--font-size-0);
 }
 .content {
 	//font-size: 1.2rem;
@@ -87,7 +78,7 @@ a:hover p {text-decoration: none;}
 h1, h2, h3, h4 {
 	color: var(--core-dark-blue);
 	font-weight: normal;
-	font-family: var(--font-families-cambon);
+	font-family: var(--font-families-sharp-grotesk-book);
 }
 .cover-image { 
 	background-position: center;
@@ -106,7 +97,7 @@ h1, h2, h3, h4 {
 	}
 }
 h1 {
-
+	font-family: var(--font-families-cambon);
 	font-size: 2.25em;
 	margin: 0 0 20px 0;
 

@@ -48,6 +48,10 @@
       "medium-grey": {
         "value": "#666666",
         "type": "color"
+      },
+      "grey-2": {
+        "value": "#555555",
+        "type": "color"
       }
     },
     "traffic": {
