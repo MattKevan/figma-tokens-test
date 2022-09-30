@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Fri, 30 Sep 2022 12:47:27 GMT
+ * Generated on Fri, 30 Sep 2022 14:06:31 GMT
  */
 
 :root {
   --token-set-order-0: global;
-  --core-dark-blue: #20293e;
+  --core-dark-blue: #20293E;
   --core-light-blue: #7396f7;
   --core-dark-orange: #bb5808;
   --core-light-orange: #ff8100;
@@ -177,10 +177,20 @@
   --text-case-none: none;
   --text-decoration-none: none;
   --text-decoration-underline: underline;
-  --md: 8px;
-  --spacing-1: 8px;
-  --spacing-2: 16px;
-  --spacing-3: 24px;
-  --spacing-4: 32px;
-  --spacing-5: 40px;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 40px;
+  --sizing-1: 8px;
+  --sizing-2: 16px;
+  --sizing-3: 24px;
+  --sizing-4: 32px;
+  --sizing-5: 40px;
+  --sizing-6: 48px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 32px;
+  --border-radius-xl: 40px;
+  --border-radius-xxl: 48px;
 }

@@ -34,16 +34,17 @@ body {
 
 .main {
 	max-width: 1200px;
-	margin: var(--spacing-5) auto;
-	padding: 0 var(--spacing-4);
+	margin: var(--spacing-xl) auto;
+	padding: 0 var(--spacing-md);
 }
 
 .columns {  
 	  max-width: 1200px;
 	  margin: 0 auto;
 	  display: grid;
-	  gap: var(--spacing-4);
-	  margin-bottom: var(--spacing-4);
+	  gap: var(--spacing-md);
+	  margin-bottom: var(--spacing-lg);
+	  
 }
 @media (min-width: 800px) {
   .columns { grid-template-columns: repeat(3, 1fr); }
@@ -59,7 +60,7 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: var(--typography-v2-base-heading-1-font-size);
-	margin: 0 0 var(--spacing-4) 0;
+	margin: 0 0 var(--spacing-xl) 0;
 }
 h2 {
 	font-size: var(--typography-v2-base-heading-2-font-size);
@@ -83,8 +84,8 @@ a.button {
 	border-color: var(--core-dark-orange);
 	border-style: solid;
 	border-width: 1px;
-	padding:var(--spacing-1) var(--spacing-2);
-	border-radius: var(--spacing-5);
+	padding:var(--spacing-xs) var(--spacing-sm);
+	border-radius: var(--spacing-xl);
 	font-weight: var(--font-weights-bold);
 	display: inline-block;
 	text-decoration: none;
@@ -97,14 +98,16 @@ a.button {
 
 .product-card {
 	background-color: var(--core-off-white);
-	padding: var(--spacing-3);
+	padding: var(--spacing-md);
+	border-radius: var(--border-radius-xl) 0  var(--border-radius-xl) 0;
 	}
 
 .block {
 	background-color: var(--core-dark-blue);
-	padding: var(--spacing-5);
-	margin-bottom: var(--spacing-5);
+	padding: var(--spacing-xl);
+	margin-bottom: var(--spacing-xl);
 	color: #fff;
+	border-radius: 0 0 var(--border-radius-xxl) 0;
 
 }
 
