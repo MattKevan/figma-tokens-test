@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 30 Sep 2022 09:36:36 GMT
+ * Generated on Fri, 30 Sep 2022 09:41:22 GMT
  */
 
 :root {
@@ -17,6 +17,7 @@
   --core-black: #000000;
   --core-dark-grey: #333333;
   --core-medium-grey: #666666;
+  --core-grey-2: #555555;
   --traffic-red: #f13258;
   --traffic-red-1: #bf0d31;
   --traffic-red-2: #e5103b;
