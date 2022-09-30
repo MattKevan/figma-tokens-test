@@ -10,7 +10,7 @@ title: HST Experience
 email: m@kevan.tv
 description: >
   HST Experience
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/figma-tokens-test" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Build settings
