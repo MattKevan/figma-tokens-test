@@ -40,6 +40,10 @@
       "black": {
         "value": "#000000",
         "type": "color"
+      },
+      "dark-grey": {
+        "value": "#333333",
+        "type": "color"
       }
     },
     "traffic": {
