@@ -39,10 +39,15 @@ body {
 	  display: grid;
 	  gap: var(--spacing-md);
 	  margin-bottom: var(--spacing-lg);
-	  
+
 }
-@media (min-width: 800px) {
-  .columns { grid-template-columns: repeat(3, 1fr); }
+
+@media (min-width: 400px) {
+  .columns { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 920px) {
+  .columns { grid-template-columns: repeat(4, 1fr); }
 }
 
 
@@ -93,9 +98,16 @@ a.button {
 
 .product-card {
 	background-color: var(--core-off-white);
-	padding: var(--spacing-md);
+	
 	border-radius: var(--border-radius-xl) 0  var(--border-radius-xl) 0;
 	}
+.product-card .inner {
+	padding: var(--spacing-md);
+}
+.product-card img {
+	width: 100%;
+	border-radius: var(--border-radius-xl) 0 0 0;
+}
 
 .block {
 	background-color: var(--core-dark-blue);
