@@ -1,14 +1,6 @@
 {
   "source": ["tokens/**/*.json"],
   "platforms": {
-    "scss": {
-      "transformGroup": "scss",
-      "buildPath": "_sass/",
-      "files": [{
-        "destination": "_tokens.scss",
-        "format": "scss/variables"
-      }]
-    },
       "css": {
       "transformGroup": "css",
       "buildPath": "css/",

@@ -1,17 +1,21 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 
-
-
 @font-face {
-    font-family: 'Sharp Grotesk Medium';
+    font-family: 'Sharp Grotesk';
     src: url('fonts/sharp-grotesk-20-medium-webfont.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sharp Grotesk';
+    src: url('fonts/sharp-grotesk-book-20-regular-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Sharp Grotesk Book';
-    src: url('fonts/sharp-grotesk-book-20-regular-webfont.woff2') format('woff');
+    font-family: 'Cambon';
+    src: url('fonts/cambon-regular-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -20,7 +24,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 	background-color: var(--core-cork);
 }
+.product-card {
+	background-color: var(--core-off-white);
+	padding: 36px;
 
+}
+a.button {
+	color: var( --core-dark-orange);
+	font-family: var(--font-families-sharp-grotesk-medium);
+}
 ::selection {
 	background: var(--core-dark-blue);
 }
@@ -74,6 +86,7 @@ h1, h2, h3, h4 {
 	color: var(--core-dark-blue);
 	font-weight: normal;
 	font-family: var(--font-families-sharp-grotesk-book);
+	margin-top: 0;
 }
 .cover-image { 
 	background-position: center;
@@ -83,9 +96,7 @@ h1, h2, h3, h4 {
 	.overlay {
 		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
 		height: 30vh;
-		@media (min-width: 576px)  { 
-			height: 50vh;
-		}
+
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -112,20 +123,6 @@ h2 {
 
 .postmeta {
 	font-family: var(--font-families-sharp-grotesk-book);
-}
-.card {
-	&.list {
-		@media (min-width: 1200px) {
-			.card-body {
-				padding-left: 0;
-			}
-			.card-img, .card-img-top {
-				border-top-left-radius: calc(.25rem - 1px);
-				border-bottom-left-radius: calc(.25rem - 1px);
-				border-top-right-radius: 0;
-			}
-		} 
-	}
 }
 
 .fullwidth {
@@ -161,32 +158,35 @@ a.nav-link:hover,
 	
 }
 
-p.tags {
-	font-family: var(--font-families-sharp-grotesk-book);
-	margin: 10px 0 0 0;
-	display: inline-block;
-	span {
-		border-color: #ECECEC;
-		border-style: solid;
-		border-width: 1px;
-		padding: 3px 5px;
-		margin-right: 2px;
-		margin-bottom: 8px;
-		display: inline-block;
-		a {color: #444;}
-	}
-}
 
+.columns {  
+
+display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 30px; 
+  grid-template-areas: 
+    "col-1 col-2 col-3"; 
+}
+.col-1 { grid-area: col-1; }
+.col-2 { grid-area: col-2; }
+.col-3 { grid-area: col-3; }
+}
+.product-card {
+	background-color: var(--core-cork);
+	padding: 36px;
+
+}
+a.button {
+	color: var( --core-dark-orange);
+	font-family: var(--font-families-sharp-grotesk-medium);
+}
 .section {
 	margin-bottom: 80px;
 }
 .hero {
-	h1 {
-		font-size: 4rem;
-		//line-height: 1em;
-		margin-bottom: 64px;
-	}
-	.red { color: #F96155; }
+
+	
 }
 
 // Footer
