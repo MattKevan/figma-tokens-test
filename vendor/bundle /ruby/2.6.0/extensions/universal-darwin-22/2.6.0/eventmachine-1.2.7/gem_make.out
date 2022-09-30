@@ -1,0 +1,17 @@
+current directory: /Users/matt.kevan/Sites/hst-experience/vendor/bundle /ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220920-50206-1se29ej.rb extconf.rb
+creating Makefile
+
+current directory: /Users/matt.kevan/Sites/hst-experience/vendor/bundle /ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/matt.kevan/Sites/hst-experience/vendor/bundle /ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/800759f9-1149-11ed-a6b7-ea36a6e2fcb9/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.Internal.sdk/usr/local/lib'
+
+current directory: /Users/matt.kevan/Sites/hst-experience/vendor/bundle /ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20220920-50206-1mue41u

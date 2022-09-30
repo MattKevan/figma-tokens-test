@@ -1,0 +1,195 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables";
+@import "tokens";
+@import "bootstrap/bootstrap";
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+::selection {
+	background: $green;
+}
+
+
+.wrapper {
+	margin-top: 60px;
+}
+.category,
+.post {
+	
+	.wrapper {
+		margin-top: 0;
+	}
+}
+hr {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.table-layout {
+	hr { margin: 1rem 0 2rem 0;}
+}
+
+
+p {
+	//font-size: 16px;
+	&.lead {
+		font-family: $font-family-sans-serif;
+	}
+	&.s {
+		font-size: 14px;
+		line-height: 1.4em;
+	}
+
+	&.xs {
+		font-size: 12px;
+		line-height: 1.2em;
+	}
+}
+.content {
+	//font-size: 1.2rem;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+a h3,
+a h4 {
+	color: #2962FF;
+}
+a:hover h3 { text-decoration: underline;}
+a:hover p {text-decoration: none;}
+
+h1, h2, h3, h4 {
+	color: $core-dark-blue;
+	font-weight: normal;
+}
+.cover-image { 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.overlay {
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+		height: 30vh;
+		@media (min-width: 576px)  { 
+			height: 50vh;
+		}
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+h1 {
+
+	font-size: 2.25em;
+	margin: 0 0 20px 0;
+
+	@media (min-width: 768px) {
+		font-size: 3em;
+	}
+
+}
+h2 {
+	font-size: 1.8em;
+	margin-bottom: 1rem;
+
+
+}
+	.title { font-size: 2em !important; 
+		margin-bottom: .75em;}
+
+.postmeta {
+	font-family: $font-family-sans-serif;
+}
+.card {
+	&.list {
+		@media (min-width: 1200px) {
+			.card-body {
+				padding-left: 0;
+			}
+			.card-img, .card-img-top {
+				border-top-left-radius: calc(.25rem - 1px);
+				border-bottom-left-radius: calc(.25rem - 1px);
+				border-top-right-radius: 0;
+			}
+		} 
+	}
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.content img {
+	width: 100%;
+}
+
+
+nav {
+	font-family: $headings-font-family;
+	//box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+	background-color: #fff!important;
+}
+
+
+.navbar-brand img {
+	margin-right: 16px;
+	width: 32px;
+}
+a.nav-link,
+.navbar-light .navbar-nav .nav-link {
+	color: #011F44;
+}
+a.nav-link:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #011F44;
+	text-decoration: underline;
+}
+.content {
+	
+}
+
+p.tags {
+	font-family: $font-family-monospace;
+	margin: 10px 0 0 0;
+	display: inline-block;
+	span {
+		border-color: #ECECEC;
+		border-style: solid;
+		border-width: 1px;
+		padding: 3px 5px;
+		margin-right: 2px;
+		margin-bottom: 8px;
+		display: inline-block;
+		a {color: #444;}
+	}
+}
+
+.section {
+	margin-bottom: 80px;
+}
+.hero {
+	h1 {
+		font-size: 4rem;
+		//line-height: 1em;
+		margin-bottom: 64px;
+	}
+	.red { color: #F96155; }
+}
+
+// Footer
+
+footer {
+	background-color: #333;
+	color: #fff;
+	p {margin: 0;}
+}

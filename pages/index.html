@@ -1,0 +1,77 @@
+---
+title: High Speed Training experience library
+description: This is a toolkit to help you define the most appropriate design process for your yourself, your team and the particular projects you're working on. 
+layout: default
+permalink: /
+---
+<div class="container">
+
+	<div class="section hero">
+		<div class="row">
+			<div class="col-12">
+			
+
+		<h1>{{ page.title }}</h1>
+
+
+	</div>
+
+
+
+
+
+
+<div class="section">
+	<h3 class="title">Get started</h3>
+
+	<div class="row">
+
+		{% assign sorted = site.documents | sort: 'title' %}
+            {% for item in sorted %}
+        {% for cat in item.categories %}
+        {% if cat == '_categories/what-we-believe.md' %}
+          {% include teaser.html %}
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+
+
+
+	</div>
+	</div>
+
+<div class="section">
+	<h3 class="title">Guidelines</h3>
+
+	<div class="row">
+				{% assign sorted = site.documents | sort: 'title' %}
+            {% for item in sorted %}
+        {% for cat in item.categories %}
+        {% if cat == '_categories/guidelines.md' %}
+          {% include teaser.html %}
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+
+	</div>
+	
+</div>
+<div class="section">
+
+
+			<h3 class="title">Resources</h3>
+			<div class="row">
+				{% assign sorted = site.documents | sort: 'title' %}
+            {% for item in sorted %}
+        {% for cat in item.categories %}
+        {% if cat == '_categories/resources.md' %}
+          {% include teaser.html %}
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+
+	</div>
+</div>
+
+</div>
+

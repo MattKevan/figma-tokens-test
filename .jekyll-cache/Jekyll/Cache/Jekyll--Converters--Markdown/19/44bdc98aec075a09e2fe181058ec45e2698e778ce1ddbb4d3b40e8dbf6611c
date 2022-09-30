@@ -1,0 +1,145 @@
+I"+<p>This highlights a lack of collaboration and sharing of knowledge.</p>
+
+<p>When researching a UX process for AO. It became clear that the wider teams that interact with UX don’t have a clear idea of what we do. While we think we communicate effectively it is probably not as good as we think. So there is a need from our colleagues to demystify the UX process so that there is a shared understanding of problems and how we as a team are approaching them.</p>
+
+<p>Each designer can vary their process from project to project and every designer can take a different approach from one another. Which makes it hard to scale what we do effectively. It makes design unpredictable and even mysterious.</p>
+
+<p><strong>The Problem Statement Template</strong> is a tool to help designers and product teams overcome these challenges.</p>
+
+<p><a href="https://aoretaillimited-my.sharepoint.com/:w:/g/personal/patrick_semple_ao_com/EdBW7CXgqfJHpRXDRkzt9l8BtXwMUG11c2CEkoC6jRa4jg" title="Problem Statement template">🔗 <strong>Please view the template here</strong></a></p>
+
+<p>It creates a rallying cry that the whole team can understand and participate in. This is because the whole team has been involved at the thinking stage and helped agree on how we tackle the piece of work.</p>
+
+<p>If employed consistently, the tool will become a way of working for the team. When teams have Ad Hoc processes, processes become static or once-off and not repeatable. Teams that have simple, repeatable processes that involve UX methods help scale these processes and practice and make working more consistent as the product team evolves in AO.</p>
+
+<p>As you work on a piece of work, this document can be referred back to at any point and help keep the team honest about the direction a project is taking. The document should be referred to, updated, and used continually.</p>
+
+<h4 id="method">Method:</h4>
+
+<p>This tool can be used in a tonne of different ways. The method of use is not important as long as it is visible and updatable. The example we’ve created is in the form of a word document. You could easily recreate this to suit your team in a Miro board or FIGJAM Board.</p>
+
+<p>The problem statement template is made up of 4 steps:</p>
+
+<ol>
+  <li>A team meeting</li>
+  <li>A questionnaire</li>
+  <li>Generate a problem statement</li>
+  <li>And assumptions that could solve the problem</li>
+</ol>
+
+<h5 id="book-a-meeting-with-your-team"><strong>Book a meeting with your team</strong></h5>
+
+<p>This tool should be thought of as a collaborative framework. Meet with the team to discuss the project. Work through each section together and focus on the data and insight that will inform your project. Some hard choices may have to be made at times, nominating a person (usually a PO to be the decider). The aim is to progress the project, if you don’t have the answers, this is a great time to plan how to find them out.<br />
+Keep referring to this document, link it to your tickets in Trello or Azure DevOps.</p>
+
+<p>The meeting will take <strong>about 30mins</strong> but honestly depends on how meaty the project is.</p>
+
+<p><strong>Questionnaire</strong></p>
+
+<p>The questionnaire is full of high-level questions to create a shared understanding of what the team thinks the problem is and the insight to back it up. This allows everyone to understand where the gaps are in knowledge and form a plan to focus on key areas. If you realize you don’t know enough at the beginning. A likely action will be to research the issue until you do before the team takes action.</p>
+
+<h5 id="the-questions">The questions:</h5>
+
+<p><strong>Is this the right problem to solve?</strong></p>
+
+<p>Asking this question upfront rallies the team around what we are aiming to do. Everyone should feel like they can discuss this openly and voice their opinion. With this question, we are looking for consensus.</p>
+
+<p><strong>Is it a symptom of an underlying problem we should solve instead?</strong></p>
+
+<p>This is a great question to think about how deep the problem goes. If the team believes that something else could be causing the issue, It would be worth investigating and raising with stakeholders for guidance.</p>
+
+<p><strong>Do we know it’s really a problem, or is it just an assumption?</strong></p>
+
+<p>The business has given us the responsibility to make our own decisions and to be smart. We need to understand what the data says and question ideas that are fed into the team. Making sure we are solving the right thing is on us as a team. Question everything.</p>
+
+<p>If it’s an assumption, investigate and identify the opportunity of the issue. Then decide if it was worth doing by discussing with stakeholders and the team when you know more about it.</p>
+
+<p>If it’s a problem that has been valued and brought to the team, understand it.</p>
+
+<p><strong>What insights do we have that can help validate the problem?</strong></p>
+
+<p>These should be the only things we actually know about the problem or our customer. We deal with assumptions later in this document. Right now we want to know the facts. If you don’t know enough about the problem and the customer reaches out to UX research, Customer insight, or Data Analytics and start to create a picture of what’s happening.</p>
+
+<p><strong>What is the Key Data or Insight?</strong></p>
+
+<p>This is the identified data that we can say is the reason we are doing this piece of work. Qualitative insight backed up by quantitative data can be a powerful story to tell. Check multiple sources of data.</p>
+
+<p><strong>What’s the impact on our customers, technology, and the business?</strong></p>
+
+<ul>
+  <li>What customer needs aren’t being met?</li>
+  <li>What are the technology needs?</li>
+  <li>What are the business needs?</li>
+  <li>Do they all align?</li>
+</ul>
+
+<p><strong>What is the potential value associated with the customers we are targeting?</strong></p>
+
+<p>Are we targeting a specific section of AO’s users? Can we test against these users? What is the value in designing for these shoppers?</p>
+
+<p><strong>Why is this a priority now?</strong></p>
+
+<p>Why is this important to solve now, what does the business need from it or what does customer need or tech need is meaning this work is a priority?</p>
+
+<p><strong>Is our team the only owner of this problem?</strong></p>
+
+<p>Do you need to work with another team to complete this work?</p>
+
+<ul>
+  <li>If yes, reach out to that team and create a shared plan of how you are going to work together. Better yet, walk through this process together and align.</li>
+  <li>If not, crack on!</li>
+</ul>
+
+<p><strong>How will we know if we’ve solved the problem?</strong></p>
+
+<p>What is the measure for success or failure?</p>
+
+<p><strong>How much resource/effort are we willing to assign to the problem?</strong></p>
+
+<p>This can be a finger in the air but having the team understand the appetite for the work is very important. No one wants the Uxer going off and investing a grand vision for solving the problem when the ticket was a flyer. If the team only wants to spend a sprint on this work, then the UXer can design a solution to fit that amount of work. But, If the team wants the world changed, that expectation is set. The size of the work will be greater.</p>
+
+<p>Obviously, don’t ever compromise on the quality of your work. But balance your output to meet expectations. Push back where needed.</p>
+
+<h3 id="problem-statement"><strong>Problem statement</strong></h3>
+
+<p>The problem statement our team favors use a key piece of insight or data and then frames the problem around this. The statement identifies the gap between the current state (i.e. the problem) and the desired state (i.e. the goal) of a process or product. Some projects may have multiple problem statements. The team may want to prioritize them using a method like Dot Voting.</p>
+
+<p><strong>Template:</strong></p>
+
+<p>Because we know <strong>[Key insight and analytics]</strong><br />
+<strong>[Our service/product]</strong> was designed to achieve <strong>[Product goals]</strong>. We have observed that the service/product isn’t meeting <strong>[these business goals]</strong>, which is causing <strong>[this adverse effect]</strong> to our business. How might we improve <strong>[service/product]</strong> so that our customers are more successful based on <strong>[these measurable criteria]</strong>?</p>
+
+<p><strong>Example:</strong></p>
+
+<p>Because we know the <strong>average order value is higher on our desktop (£422) experience than our Mobile experience (£362). Creating a £60 difference between the two experiences.</strong></p>
+
+<p><strong>The AO website</strong> was designed <strong>to be a Mobile-first experience</strong>. We have observed that the service/product isn’t meeting <strong>our ideas for a mobile-first experience</strong>, which is causing the <strong>customers to not be confident enough to purchase higher ticket ideas on our mobile experience</strong>.</p>
+
+<p>How might we improve <strong>AO.com &amp; AO.De</strong> so that our customers are more successful based on <strong>increasing Mobile AOV, Conversion, and Progression through the mobile journey</strong>?</p>
+
+<p>You may have noticed that some of the statements have changed slightly. This is to aid readability. Change if needed to suit your statement but don’t omit a section completely.</p>
+
+<p><strong>Assumption generator</strong></p>
+
+<p>The problem statement maps the gap in the experience. Assumptions are ideas that may bridge those gaps between what users are doing and the outcomes we want. This tool helps to visually represent that transition.</p>
+
+<p><strong>It works in this way</strong></p>
+
+<ol>
+  <li>What is the user doing now? (use insight)</li>
+  <li>What is the current solution?</li>
+  <li>What is the outcome? (use analytics or insight)</li>
+  <li>What new outcome do we want for users?</li>
+  <li>What potential solutions could help shift the user to use the products to create the new outcome.</li>
+</ol>
+
+<p>When we have these things clearly discussed as a team we can get a consensus on areas to focus on. The team takes the ideas that are generated here and transforms them into How Might We’s. This is a method to reframe statements as questions. Questions are easier to answer than a statement. These help teams ideate and explore ideas. If you have generated multiple Problem Statements. Create multiple sections here to group HMW’s</p>
+
+<p>This is a tool made famous in Lean UX and Google’s Design Sprints.</p>
+
+<p>We won’t be discussing them in this article but please reach out to the team if you want more info.</p>
+
+<p>There may be a lot of options to explore here. Depending on the size of the project, this could be perfectly fine. The UX team would advise that the designs get a pointer to which ideas the team feels are the best. Otherwise, this will fall to the Designer to choose.</p>
+
+<p>Lastly, this tool has a small place to create some actions and document when this will happen. Ideally, this sort of stuff can live directly on the Trello or Azure ticket.</p>
+:ET
