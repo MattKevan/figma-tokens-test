@@ -8,6 +8,14 @@
         "destination": "_tokens.scss",
         "format": "scss/variables"
       }]
+    },
+      "css": {
+      "transformGroup": "css",
+      "buildPath": "css/",
+      "files": [{
+        "destination": "tokens.css",
+        "format": "css/variables"
+      }]
     }
   }
 }
