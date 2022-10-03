@@ -1,20 +1,17 @@
-<nav class="navbar navbar-expand-sm navbar-light">
+<nav class="navbar bg-dark-blue clearfix">
   <div class="container">
-  <a class="navbar-brand" href="/">{{ site.title }}</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <a class="navbar-brand" href="/"><img src="{{site.baseurl}}/images/logo-blue.svg" alt="{{ site.title }}"></a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
 
-      {% for item in site.menus.header %}
-        <li class="nav-item menu-item-{{ loop.index }}">
-          <a href="{{ item.url }}" title="Go to {{ item.title }}" class="nav-link">{{ item.title }}</a>
-        </li>
-      {% endfor %}
+    <ul class="navbar-links">
+
+        <li>Our courses</li>
+        <li>Team training</li>
+        <li>Resources</li>
+        <li>Contact us</li>
+        <li>Basket</li>
+        <li>Log in</li>
    
     </ul>
-  </div>
   </div>
 </nav>

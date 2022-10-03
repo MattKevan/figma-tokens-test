@@ -1,6 +1,3 @@
-// Import partials from `sass_dir` (defaults to `_sass`)
-
-
 @font-face {
     font-family: 'Sharp Grotesk';
     src: url('fonts/sharp-grotesk-20-medium-webfont.woff2') format('woff');
@@ -20,20 +17,92 @@
     font-style: normal;
 }
 
-body {
-	-webkit-font-smoothing: antialiased;
-	background-color: var(--core-cork);
-	font-family: var(--font-families-sans-serif), sans-serif;
-	font-size: var(--typography-v2-base-body-text-font-size);
+.bg-dark-blue {
+	background-color: var(--core-dark-blue);
 }
 
-.main {
+.bg-cork {
+	background-color: var(--core-cork);
+}
+
+.bg-pink {
+	background-color: var(--core-pink);
+}
+.bg-white {
+	background-color: var(--core-white);
+}
+.bg-light-blue {
+	background-color: var(--core-light-blue);
+}
+.mt-xl {
+	margin-top: var(--spacing-xl);
+}
+
+.mb-xl {
+	margin-bottom: var(--spacing-xl);
+}
+
+.mt-l {
+	margin-top: var(--spacing-l);
+}
+
+.p-xl {
+	padding: var(--spacing-xl);;
+}
+.p-md {
+	padding: var(--spacing-md);;
+}
+.rounded-tl-br-xl {
+	border-radius: var(--border-radius-xl) 0  var(--border-radius-xl) 0;
+}
+.rounded-br-xxl {
+	border-radius: 0 0 var(--border-radius-xxl) 0;
+}
+.rounded-tl-md {
+	border-radius: var(--border-radius-md) 0 0 0;
+}
+.white {
+	color: #fff;
+}
+.txt-title-large {
+	font-size: var(--typography-v2-large-title-font-size);
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	background-color: var(--core-white);
+	font-family: var(--font-families-sans-serif), sans-serif;
+	font-size: var(--typography-v2-base-body-text-font-size);
+
+	margin: 0;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+.container {
 	max-width: 1200px;
-	margin: var(--spacing-xl) auto;
+	margin: 0 auto;
 	padding: 0 var(--spacing-md);
 }
 
-.columns {  
+.col-2 {  
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  display: grid;
+	  gap: var(--spacing-md);
+	  margin-bottom: var(--spacing-lg);
+
+}
+
+@media (min-width: 920px) {
+  .col-2 { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+.col-4 {  
+
 	  max-width: 1200px;
 	  margin: 0 auto;
 	  display: grid;
@@ -43,14 +112,17 @@ body {
 }
 
 @media (min-width: 400px) {
-  .columns { grid-template-columns: repeat(2, 1fr); }
+  .col-4 { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 920px) {
-  .columns { grid-template-columns: repeat(4, 1fr); }
+  .col-4 { grid-template-columns: repeat(4, 1fr); }
 }
 
-
+.fullwidth {
+	max-width: 100%;
+	grid-row-gap: 0;
+}
 h1, h2, h3, h4 {
 	color: var(--core-dark-blue);
 	font-weight: normal;
@@ -89,6 +161,7 @@ a.button {
 	font-weight: var(--font-weights-bold);
 	display: inline-block;
 	text-decoration: none;
+	background-color: var(--core-white);
 }
 
 .button:hover {
@@ -96,10 +169,30 @@ a.button {
 	background-color: var( --core-dark-orange);
 }
 
+.navbar {
+	color: var(--core-white);
+	padding: var(--spacing-lg) 0 var(--spacing-lg) 0;
+}
+.navbar .container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.navbar .navbar-links ul {
+	margin: auto 0;
+}
+.navbar li {
+	list-style: none;
+	float: left;
+	margin-right: var(--spacing-sm);
+}
+.navbar .navbar-links {
+	float: right;
+	margin: 25px 0;
+}
+
 .product-card {
-	background-color: var(--core-off-white);
-	
-	border-radius: var(--border-radius-xl) 0  var(--border-radius-xl) 0;
+
+
 	}
 .product-card .inner {
 	padding: var(--spacing-md);
@@ -108,16 +201,47 @@ a.button {
 	width: 100%;
 	border-radius: var(--border-radius-xl) 0 0 0;
 }
+.hero-banner {
+	background: radial-gradient(34.79% 147.65% at 74.03% 33.33%,#febf7e 0,#ff8100 99.53%);
+	padding-top: var(--spacing-xl);
+
+}
+
+@media (min-width: 400px) {
+.hero-banner .container { grid-template-columns: repeat(2, 1fr); }
+}
 
 .block {
-	background-color: var(--core-dark-blue);
-	padding: var(--spacing-xl);
-	margin-bottom: var(--spacing-xl);
-	color: #fff;
-	border-radius: 0 0 var(--border-radius-xxl) 0;
 
 }
 
 div.block > h2 {
 	color: var(--core-white);
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+.case-study-panel__content {
+padding:  7.1875rem 4rem 7.1875rem calc(50vw - 36.75rem);
+color: #fff;
+}
+.case-study-panel__icons-block {
+padding: 4.25rem calc(50vw - 36.75rem) 4.25rem 5.375rem;
+
+}
+.case-study-panel__icons-block img {
+	width: 420px;
+}
+.case-study-panel__quote-block {
+	padding: 4.25rem calc(50vw - 36.75rem) 4.25rem 5.375rem;
+}
+
+.case-study-panel__quote-block blockquote {
+	font-size: var(--typography-v2-base-heading-1-font-size);
+	font-family: var(--font-families-serif);
+	margin: 0 0 var(--spacing-md);
+	padding: 0;
 }
