@@ -22,40 +22,42 @@
 }
 
 .bg-brand-dark {
-	background-color: var(--site-brand-dark);
+	background-color: var(--core-brand-dark);
 }
 
 .brand-dark {
-	color: var(--site-brand-dark);
+	color: var(--core-brand-dark);
+}
+
+.bg-brand-light {
+	background-color: var(--core-brand-light);
 }
 
 .text {
-	color: var(--site-text);
+	color: var(--core-text);
 }
 
 .bg-accent {
-	background-color: var(--site-accent);
+	background-color: var(--core-accent-1);
 }
 
 .brand-primary {
-	color: var(--site-primary);
+	color: var(--core-primary-dark);
 }
 
-.bg-pink {
-	background-color: var(--core-pink);
+.bg-accent-2 {
+	background-color: var(--core-accent-2);
 }
 
 .white {
-	color: var(--core-white);
+	color: var(--greys-white);
 }
 
 .bg-white {
-	background-color: var(--core-white);
+	background-color: var(--greys-white);
 }
 
-.bg-light-blue {
-	background-color: var(--core-light-blue);
-}
+
 
 .mt-xl {
 	margin-top: var(--spacing-xl);
@@ -229,8 +231,8 @@ a.button {
 }
 
 .button {
-	color: var(--site-primary);
-	border-color: var(--site-primary);
+	color: var(--core-primary-dark);
+	border-color: var(--core-primary-dark);
 	border-style: solid;
 	border-width: 1px;
 	padding:var(--spacing-xs) var(--spacing-sm);
@@ -238,12 +240,12 @@ a.button {
 	font-weight: var(--font-weights-bold);
 	display: inline-block;
 	text-decoration: none;
-	background-color: var(--core-white);
+	background-color: var(--greys-white);
 }
 
 .button:hover {
-	color: var( --core-white);
-	background-color: var(--site-primary);
+	color: var( --greys-white);
+	background-color: var(--core-primary-dark);
 }
 
 .navbar .container {
