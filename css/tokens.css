@@ -1,11 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 12:51:16 GMT
+ * Generated on Tue, 04 Oct 2022 12:54:51 GMT
  */
 
 :root {
   --token-set-order-0: global;
-  --core-dark-blue: #20293E;
+  --dark-blue-dark-blue-1: #20293E;
+  --dark-blue-dark-blue-2: #313e5e;
+  --dark-blue-dark-blue-3: #3e5079;
+  --dark-blue-dark-blue-4: #4c6294;
+  --core-brand-dark: #20293E;
   --core-brand-light: #7396f7;
   --core-primary-dark: #bb5808;
   --core-primary-light: #ff8100;
@@ -29,9 +33,6 @@
   --traffic-green-2: #23be7b;
   --traffic-geen: #3ddc97;
   --traffic-green-3: #64e3ac;
-  --dark-blue-dark-blue-1: #313e5e;
-  --dark-blue-dark-blue-2: #3e5079;
-  --dark-blue-dark-blue-3: #4c6294;
   --light-blue-light-blue-1: #2b60f3;
   --light-blue-light-blue-2: #517df5;
   --light-blue-light-blue-3: #7396f7;
