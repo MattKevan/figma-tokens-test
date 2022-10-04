@@ -21,10 +21,15 @@
     font-style: normal;
 }
 
+.inline-block {
+	display: inline-block;
+}
 .bg-dark-blue {
 	background-color: var(--core-dark-blue);
 }
-
+.dark-blue {
+	color: var(--core-dark-blue);
+}
 .bg-cork {
 	background-color: var(--core-cork);
 }
@@ -33,16 +38,15 @@
 	background-color: var(--core-pink);
 }
 
+.white {
+	color: var(--core-white);
+}
 .bg-white {
 	background-color: var(--core-white);
 }
 
 .bg-light-blue {
 	background-color: var(--core-light-blue);
-}
-
-.white {
-	color: var(--core-white);
 }
 
 .mt-xl {
@@ -56,13 +60,32 @@
 .mt-l {
 	margin-top: var(--spacing-l);
 }
+.ml-xl {
+	margin-left: var(--spacing-xl);
+}
 
 .p-xl {
-	padding: var(--spacing-xl);;
+	padding: var(--spacing-xl);
 }
 
 .p-md {
-	padding: var(--spacing-md);;
+	padding: var(--spacing-md);
+}
+
+.pt-xs {
+	padding-top: var(--spacing-xs);
+}
+
+.pb-xs {
+	padding-bottom: var(--spacing-xs);
+}
+
+.pl-s {
+	padding-left: var(--spacing-xs);
+}
+
+.pr-s {
+	padding-right: var(--spacing-xs);
 }
 
 .pt-lg {
@@ -89,6 +112,14 @@
 	border-radius: var(--border-radius-md) 0 0 0;
 }
 
+.rounded-tr-md {
+	border-radius: 0 var(--border-radius-md) 0 0;
+}
+
+.rounded-bl-md {
+	border-radius: 0 0 0 var(--border-radius-md);
+}
+
 .txt-title-large {
 	font-size: var(--typography-v2-large-title-font-size);
 }
@@ -106,7 +137,6 @@ body {
 	background-color: var(--core-white);
 	font-family: var(--font-families-sans-serif), sans-serif;
 	font-size: var(--typography-v2-base-body-text-font-size);
-
 	margin: 0;
 }
 
@@ -114,6 +144,7 @@ figure {
 	margin: 0;
 	padding: 0;
 }
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -126,22 +157,18 @@ figure {
 	  display: grid;
 	  gap: var(--spacing-md);
 	  margin-bottom: var(--spacing-lg);
-
 }
 
 @media (min-width: 920px) {
   .col-2 { grid-template-columns: repeat(2, 1fr); }
 }
 
-
 .col-4 {  
-
-	  max-width: 1200px;
-	  margin: 0 auto;
-	  display: grid;
-	  gap: var(--spacing-md);
-	  margin-bottom: var(--spacing-lg);
-
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	gap: var(--spacing-md);
+	margin-bottom: var(--spacing-lg);
 }
 
 @media (min-width: 400px) {
@@ -156,6 +183,7 @@ figure {
 	max-width: 100%;
 	grid-row-gap: 0;
 }
+
 h1, h2, h3, h4 {
 	color: var(--core-dark-blue);
 	font-weight: normal;
@@ -177,8 +205,6 @@ h3 {
 h4 { 
 	var(--typography-v2-base-heading-4-font-size);
 }
-
-
 
 a.button {
 	text-decoration: none;
@@ -229,9 +255,8 @@ a.button {
 }
 
 @media (min-width: 400px) {
-.hero-banner .container { grid-template-columns: repeat(2, 1fr); }
+	.hero-banner .container { grid-template-columns: repeat(2, 1fr); }
 }
-
 
 .clearfix::after {
     display: block;
