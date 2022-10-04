@@ -582,7 +582,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "{light-blue.light-blue-1}",
+        "value": "{core.dark-orange}",
         "type": "color"
       },
       "text": {
