@@ -571,6 +571,28 @@
         "value": "{sizing.6}",
         "type": "borderRadius"
       }
+    },
+    "site": {
+      "brand-light": {
+        "value": "{core.light-blue}",
+        "type": "color"
+      },
+      "brand-dark": {
+        "value": "{core.dark-blue}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{core.dark-orange}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{core.off-black}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{core.cork}",
+        "type": "color"
+      }
     }
   },
   "$themes": [],
