@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 Oct 2022 15:56:24 GMT
+ * Generated on Tue, 04 Oct 2022 08:29:35 GMT
  */
 
 :root {
@@ -193,4 +193,9 @@
   --border-radius-lg: 32px;
   --border-radius-xl: 40px;
   --border-radius-xxl: 48px;
+  --site-brand-light: #7396f7;
+  --site-brand-dark: #20293E;
+  --site-primary: #bb5808;
+  --site-text: #0f1422;
+  --site-accent: #E8E4D9;
 }
