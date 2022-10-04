@@ -1,8 +1,26 @@
 {
   "global": {
-    "core": {
-      "dark-blue": {
+    "dark-blue": {
+      "dark-blue-1": {
         "value": "#20293E",
+        "type": "color"
+      },
+      "dark-blue-2": {
+        "value": "#313e5e",
+        "type": "color"
+      },
+      "dark-blue-3": {
+        "value": "#3e5079",
+        "type": "color"
+      },
+      "dark-blue-4": {
+        "value": "#4c6294",
+        "type": "color"
+      }
+    },
+    "core": {
+      "brand-dark": {
+        "value": "{dark-blue.dark-blue-1}",
         "type": "color"
       },
       "brand-light": {
@@ -99,20 +117,6 @@
       },
       "green-3": {
         "value": "#64e3ac",
-        "type": "color"
-      }
-    },
-    "dark-blue": {
-      "dark-blue-1": {
-        "value": "#313e5e",
-        "type": "color"
-      },
-      "dark-blue-2": {
-        "value": "#3e5079",
-        "type": "color"
-      },
-      "dark-blue-3": {
-        "value": "#4c6294",
         "type": "color"
       }
     },
