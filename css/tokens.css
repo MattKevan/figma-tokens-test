@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 06 Oct 2022 14:02:00 GMT
+ * Generated on Mon, 10 Oct 2022 15:59:38 GMT
  */
 
 :root {
@@ -10,9 +10,9 @@
   --dark-blue-dark-blue-3: #313e5e;
   --dark-blue-dark-blue-4: #3e5079;
   --dark-blue-dark-blue-5: #4c6294;
-  --core-primary-dark: #20293E;
+  --core-primary-dark: #313e5e;
   --core-primary-light: #7396f7;
-  --core-secondary-dark: #2b60f3;
+  --core-secondary-dark: #bb5808;
   --core-secondary-light: #ff8100;
   --core-accent-1: #E8E4D9;
   --core-accent-2: #e3cad8;
@@ -70,17 +70,16 @@
   --line-heights-5: 130%;
   --font-weights-normal: normal;
   --font-weights-bold: bold;
-  --font-size-xs: 12px;
-  --font-size-s: 14px;
-  --font-size-m: 16px;
-  --font-size-lg: 18px;
-  --font-size-h1: 36px;
-  --font-size-h2: 30px;
-  --font-size-h3: 26px;
-  --font-size-h4: 22px;
-  --font-size-title: 36px;
-  --font-size-h1-large: 42px;
-  --font-size-title-large: 56px;
+  --font-size-size-1: 12px;
+  --font-size-size-2: 14px;
+  --font-size-size-3: 16px;
+  --font-size-size-4: 18px;
+  --font-size-size-5: 22px;
+  --font-size-size-6: 26px;
+  --font-size-size-7: 30px;
+  --font-size-size-8: 36px;
+  --font-size-size-9: 42px;
+  --font-size-size-10: 56px;
   --letter-spacing-0: 0;
   --letter-spacing-1: 0%;
   --paragraph-spacing-0: 0;
