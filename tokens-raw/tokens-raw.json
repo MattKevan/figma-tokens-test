@@ -24,7 +24,7 @@
     },
     "core": {
       "primary-dark": {
-        "value": "{dark-blue.dark-blue-3}",
+        "value": "{dark-blue.dark-blue-2}",
         "type": "color"
       },
       "primary-light": {
